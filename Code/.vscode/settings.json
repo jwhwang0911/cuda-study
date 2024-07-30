@@ -1,0 +1,8 @@
+{
+    "DockerRun.DisableDockerrc": true,
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.cu": "cpp",
+        "iostream": "cpp"
+    }
+}

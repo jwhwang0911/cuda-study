@@ -16,9 +16,9 @@ RUN pip install \
     matplotlib  \
     opencv-python
     
-VOLUME /Data
+# VOLUME /Data
 VOLUME /Code
-VOLUME /Result
+# VOLUME /Result
 
 WORKDIR /Code
 

@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/python3.9",
+                "/home/${USER}/.local/lib/python3.9",
+                "/home/${USER}/.local/lib/python3.9/site-packages/torch/include/**",
+                "/home/${USER}/.local/lib/python3.9/site-packages/torch/include/torch/**",
+                "/home/${USER}/.local/lib/python3.9/site-packages/torch/include/torch/csrc/**",
+                "/home/${USER}/.local/lib/python3.9/site-packages/torch/include/torch/csrc/api/**",
+                "/home/${USER}/.local/lib/python3.9/site-packages/torch/include/torch/csrc/api/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
