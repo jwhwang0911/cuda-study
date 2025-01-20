@@ -2,7 +2,6 @@
     "DockerRun.DisableDockerrc": true,
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "*.cu": "cuda-cpp",
         "iostream": "cpp",
         "array": "cpp",
         "atomic": "cpp",
@@ -83,5 +82,8 @@
         "stack": "cpp",
         "__locale": "cpp",
         "ios": "cpp"
-    }
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "C_Cpp.autocompleteAddParentheses": false,
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64"
 }

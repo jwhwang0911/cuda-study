@@ -4,13 +4,13 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/local/cuda/include/**",
-                "/opt/conda/lib/python3.10/**",
+                "/usr/local/cuda/include",
                 "/opt/conda/lib/python3.10/site-packages/torch/include/**",
-                "/opt/conda/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/**"
+                "/opt/conda/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/**",
+                "/opt/conda/lib/python3.10/site-packages/torch/include/torch/csrc/api/include/torch/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/gcc",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "linux-gcc-x64"
